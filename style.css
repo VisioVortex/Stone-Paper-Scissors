@@ -3,7 +3,9 @@
     padding: 0;
     text-align: center;
 }
-
+body{
+    background-color: rgb(221, 216, 216);
+}
 h1{
     background-color: #1e272e;
     color: white;
@@ -38,4 +40,27 @@ img{
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 4rem;
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: #1e272e;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
 }
